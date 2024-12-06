@@ -1,0 +1,27 @@
+site_name: TDisk Documentation
+theme:
+  name: material
+  palette:
+    primary: deep purple
+    scheme: slate
+  features:
+    - content.code.copy
+
+  
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - callouts
+
+
+plugins:
+    - search
+
+
+nav:
+  - Как запустить проект: start.md
+  - Как пользоваться: tutor.md
+  - Основные функции: base.md
